@@ -82,18 +82,18 @@
     </nav>
     <!-- NAV_BAR_SECTION END -->
   </header>
-  <!-- Main Section start -->
+  <!-- Banner Section start -->
   <section class="banner-section">
     <div class="container">
       <div class="banner_row row_change">
         <div class="banner_cont banner_change" data-aos="fade-right" data-aos-delay="200">
- <div class="chan-banner-conen">
-	<h1>HIRE DRIVER IN BANGALORE</h1>
-	<p>Use Traffic well - Catch up on your sleep; Complete your office presentation; Finish your book reading..</p>
-	<div class="banner_bttn">
-    <a class="driver_btn" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get Started </a>
-	</div>
- </div>
+          <div class="chan-banner-conen">
+            <h1>HIRE DRIVER IN BANGALORE</h1>
+            <p>Use Traffic well - Catch up on your sleep; Complete your office presentation; Finish your book reading..</p>
+            <div class="banner_bttn">
+              <a class="driver_btn" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get Started </a>
+            </div>
+          </div>
           <div class=" counter-number counter_img">
             <div class="counter-item counter_img_item">
               <img src="./image/Drive_hire_img.png" alt="">
@@ -106,16 +106,16 @@
             <div class="form-row">
               <div class="form-group">
                 <select id="location">
-                  <option value=""  style="color: #007BFF; background: #fff;">Location</option>
-                   <option value=""  style="color: #007BFF; background: #fff;">Bengaluru </option>
-                   <option value=""  style="color: #007BFF; background: #fff;">Chennai</option>  
+                  <option value="" style="color: #007BFF; background: #fff;">Location</option>
+                  <option value="" style="color: #007BFF; background: #fff;">Bengaluru </option>
+                  <option value="" style="color: #007BFF; background: #fff;">Chennai</option>
                 </select>
               </div>
 
               <div class="form-group">
                 <select id="request">
                   <option value="" style="color: #007BFF; background: #fff;">Request For</option>
-                  <option value="" style="color: #007BFF; background: #fff;">Cab Hire  </option>
+                  <option value="" style="color: #007BFF; background: #fff;">Cab Hire </option>
                   <option value="" style="color: #007BFF; background: #fff;">Driver Hire</option>
                 </select>
               </div>
@@ -150,86 +150,113 @@
       </div>
     </div>
   </section>
+  <!-- Banner Section end -->
+  <!-- Trip Fares section start -->
   <section class="Trip-Fares">
     <div class="container">
-        <h2 class="sub_heading" data-aos="fade-up" data-aos-delay="200">Trip Fares</h2>
-        <p data-aos="fade-up" data-aos-delay="200">Avail Flexible Driver Services</p>
-<div class="table_main" >
-    <div class="tabs" data-aos="fade-right" data-aos-delay="200">
-        <div class="tab active" onclick="showTab('bangalore')">Travel Within Bangalore</div>
-        <div class="tab" onclick="showTab('outskirts')">Travel to Outskirts of Bangalore</div>
-        <div class="tab" onclick="showTab('outstation')">Travel to Outstation</div>
-    </div>
+      <h2 class="sub_heading" data-aos="fade-up" data-aos-delay="200">Trip Fares</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Avail Flexible Driver Services</p>
 
-    <div id="bangalore" class="tab-content active" data-aos="fade-left" data-aos-delay="200">
-        <table>
-            <tr>
-                <th>Trip Categories</th>
-                <th>Amount (starting from)</th>
-            </tr>
-            <tr>
-                <td>Travel time = 2 hrs (Round Trip)</td>
-                <td><span>Rs.300</span></td>
-            </tr>
-            <tr>
-                <td>Travel Time = 4 hrs (Round Trip)</td>
-                <td><span>Rs.400 (Rs.450 on Sat & Sunday)</span></td>
-            </tr>
-            <tr>
-                <td>Pick up & Drop (2 hrs each for both the ways)</td>
-                <td><span>Rs.600 to 700</span></td>
-            </tr>
-            <tr>
-                <td>1 hour One Way Drop</td>
-                <td><span>Rs.350</span></td>
-            </tr>
-            <tr>
-                <td>Night One Way Drop (Starts after 9pm)</td>
-                <td><span>Rs.600</span></td>
-            </tr>
-        </table>
-    </div>
+      <div class="table_main">
+        <!-- Tab Buttons -->
+        <nav class="tabs" data-aos="fade-right" data-aos-delay="200">
+          <button class="tab active" onclick="showTab('bangalore')" aria-selected="true">Travel Within Bangalore</button>
+          <button class="tab" onclick="showTab('outskirts')" aria-selected="false">Travel to Outskirts of Bangalore</button>
+          <button class="tab" onclick="showTab('outstation')" aria-selected="false">Travel to Outstation</button>
+        </nav>
 
-    <div id="outskirts" class="tab-content" data-aos="fade-left" data-aos-delay="200">
-      <table>
-        <tr>
-            <th>Trip Categories</th>
-            <th>Amount (starting from)</th>
-        </tr>
-        <tr>
-            <td>Travel Time = 4 hrs (Round Trip)</td>
-            <td><span>Rs.500 (Rs.550 on Sunday)</span></td>
-        </tr>
-        <tr>
-            <td>One way Drop</td>
-            <td><span>Rs.700</span></td>
-        </tr>
-        <tr>
-            <td>Bangalore Airport Transfer</td>
-            <td><span>Rs.500 (Rs.550 on Sunday)</span></td>
-        </tr>
-    </table>
-    </div>
+        <!-- Tab Content -->
+        <div class="tab-content-wrapper">
+          <div id="bangalore" class="tab-content active" data-aos="fade-left" data-aos-delay="200">
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Trip Categories</th>
+                    <th>Amount (starting from)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Travel Time = 2 hrs (Round Trip)</td>
+                    <td><span>Rs. 300</span></td>
+                  </tr>
+                  <tr>
+                    <td>Travel Time = 4 hrs (Round Trip)</td>
+                    <td><span>Rs. 400 (Rs. 450 on Sat & Sun)</span></td>
+                  </tr>
+                  <tr>
+                    <td>Pick up & Drop (2 hrs each for both ways)</td>
+                    <td><span>Rs. 600 - 700</span></td>
+                  </tr>
+                  <tr>
+                    <td>1-hour One Way Drop</td>
+                    <td><span>Rs. 350</span></td>
+                  </tr>
+                  <tr>
+                    <td>Night One Way Drop (Starts after 9 PM)</td>
+                    <td><span>Rs. 600</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
 
-    <div id="outstation" class="tab-content" data-aos="fade-left" data-aos-delay="200">
-      <table>
-        <tr>
-            <th>Trip Categories</th>
-            <th>Amount (starting from)</th>
-        </tr>
-        <tr>
-            <td>Destination less than 475kms from Bangalore</td>
-            <td><span>Rs.1200 per day</span></td>
-        </tr>
-        <tr>
-            <td>Destination greater than 475kms from Bangalore</td>
-            <td><span>Rs.1300 per day</span></td>
-        </tr>
-    </table>
+          <div id="outskirts" class="tab-content" data-aos="fade-left" data-aos-delay="200">
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Trip Categories</th>
+                    <th>Amount (starting from)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Travel Time = 4 hrs (Round Trip)</td>
+                    <td><span>Rs. 500 (Rs. 550 on Sun)</span></td>
+                  </tr>
+                  <tr>
+                    <td>One-way Drop</td>
+                    <td><span>Rs. 700</span></td>
+                  </tr>
+                  <tr>
+                    <td>Bangalore Airport Transfer</td>
+                    <td><span>Rs. 500 (Rs. 550 on Sun)</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div id="outstation" class="tab-content" data-aos="fade-left" data-aos-delay="200">
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Trip Categories</th>
+                    <th>Amount (starting from)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Destination less than 475 kms from Bangalore</td>
+                    <td><span>Rs. 1200 per day</span></td>
+                  </tr>
+                  <tr>
+                    <td>Destination greater than 475 kms from Bangalore</td>
+                    <td><span>Rs. 1300 per day</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-    </div>
-   </section>
+  </section>
+  <!-- Trip Fares section end -->
+  <!-- Why millions trust ezi drive section start -->
   <section class="why_million">
     <div class="container">
       <h2 class="sub_heading mob_title" data-aos="fade-right" data-aos-delay="200">Why millions trust ezi drive!
@@ -303,24 +330,28 @@
         </div>
       </div>
     </div>
-  </section>    
+  </section>
+  <!-- Why millions trust ezi drive! section end  -->
+  <!-- Ezi Drive Mobile App section start -->
   <section class="driveapp_sec sec_driveapp">
     <div class="container">
       <h2 class="sub_heading mob_title" data-aos="fade-up" data-aos-delay="200">Ezi Drive Mobile App</h2>
       <div class="drive_app row">
-        <div class="driveapp_cont col-lg-7" data-aos="fade-left" data-aos-delay="200">
+        <div class="driveapp_cont col-lg-7" data-aos="fade-right" data-aos-delay="200">
           <h2 class="sub_heading desk_title">Hire Driver in Bangalore at Affordable Price</h2>
           <p>Need car drivers in Bangalore? EZI Drive is your one stop platform for all your driver related needs. Whether you want a part time driver on hire in Bangalore for monthly basis or hourly drivers in Bangalore as per your requirements, we are the most trusted providers of car drivers in Bangalore.</p>
           <div class="book_btn">
             <a class="driver_btn" href="">Get Started <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
           </div>
         </div>
-        <div class="driveapp_img col-lg-5" data-aos="fade-right" data-aos-delay="200">
-            <img src="./image/Hire-Driver-in-Bangalore-at-Affordable-Price.png" alt="Mobile App">
-          </div>
+        <div class="driveapp_img col-lg-5" data-aos="fade-left" data-aos-delay="200">
+          <img src="./image/Hire-Driver-in-Bangalore-at-Affordable-Price.png" alt="Mobile App">
+        </div>
       </div>
     </div>
   </section>
+  <!-- Ezi Drive Mobile App section end -->
+  <!-- Driver on Call in Bangalore section start -->
   <section class="driveapp_sec">
     <div class="container">
       <h2 class="sub_heading mob_title" data-aos="fade-up" data-aos-delay="200">Ezi Drive Mobile App</h2>
@@ -338,77 +369,81 @@
       </div>
     </div>
   </section>
+  <!-- Driver on Call in Bangalore section end -->
+  <!-- Hire Our Reliable Driver- Make your Journey Safe and Secure section start -->
   <section class="driveapp_sec sec_driveapp">
     <div class="container">
       <h2 class="sub_heading mob_title" data-aos="fade-up" data-aos-delay="200">Ezi Drive Mobile App</h2>
       <div class="drive_app row">
-        <div class="driveapp_cont col-lg-7" data-aos="fade-left" data-aos-delay="200">
+        <div class="driveapp_cont col-lg-7" data-aos="fade-right" data-aos-delay="200">
           <h2 class="sub_heading desk_title">Hire Our Reliable Driver- Make your Journey Safe and Secure</h2>
           <p>We understand that safety is the biggest concern for any customer. While recruiting hourly drivers in Bangalore on our online portal, we always make sure that they are reliable, skilled and well behaved. All our drivers for hire in Bangalore are of minimum 3 yrs driving experience and background check verified. We guarantee you a safe and secure travel not only in Bangalore but throughout the country.</p>
           <div class="book_btn">
             <a class="driver_btn" href="">Get Started <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
           </div>
         </div>
-        <div class="driveapp_img col-lg-5" data-aos="fade-right" data-aos-delay="200">
-            <img src="./image/Hire-Our-Reliable-Driver-Make-your-Journey-Safe-and-Secure.png" alt="Mobile App">
-          </div>
+        <div class="driveapp_img col-lg-5" data-aos="fade-left" data-aos-delay="200">
+          <img src="./image/Hire-Our-Reliable-Driver-Make-your-Journey-Safe-and-Secure.png" alt="Mobile App">
+        </div>
       </div>
     </div>
   </section>
-  <!-- PROMINENT PLACES IN Bangalore section start -->
-   <section class="prominent-place">
-    <div class="container">
-     <div class="prominent_main">
-     <h2 data-aos="fade-right" data-aos-delay="200">PROMINENT PLACES IN Bangalore</h2> 
-     <p data-aos="fade-left" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tellus porta, dapibus diam id, blandit neque.</p>
-     <div class="tab_div">
-        <div class="tab_sub" data-aos="fade-right" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Marathahalli <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-up" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Hebbal <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-left" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Whitefield <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-right" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in BTM Layout <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-up" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Electronic City <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-left" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Bellandoor <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-right" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Koramangala <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-up" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Yelahanka <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-left" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Indiranagar <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub dummy_cls" style="background: none;" >
-            <a class="driver_new" href=""></a>
-        </div>
-        <div class="tab_sub" data-aos="fade-up" data-aos-delay="200">
-            <a class="driver_new" href="">Driver Hire in Yeshwantapura <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </div>
-        <div class="tab_sub dummy_cls" style="background: none;">
-            <a class="driver_new" href=""></a>
-        </div>
+  <!-- Hire Our Reliable Driver- Make your Journey Safe and Secure section start -->
 
-     </div>
+  <!-- PROMINENT PLACES IN Bangalore section start -->
+  <section class="prominent-place">
+    <div class="container">
+      <div class="prominent_main">
+        <h2 data-aos="fade-right" data-aos-delay="100">Prominent Places In Bangalore</h2>
+        <p data-aos="fade-left" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tellus porta, dapibus diam id, blandit neque.</p>
+        <div class="tab_div">
+          <div class="tab_sub" data-aos="fade-right" data-aos-delay="100">
+            <a class="driver_new" href="#" title="Driver Hire in Marathahalli">Driver Hire in Marathahalli <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-up" data-aos-delay="200">
+            <a class="driver_new" href="#" title="Driver Hire in Hebbal">Driver Hire in Hebbal <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-left" data-aos-delay="300">
+            <a class="driver_new" href="#" title="Driver Hire in Whitefield">Driver Hire in Whitefield <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-right" data-aos-delay="400">
+            <a class="driver_new" href="#" title="Driver Hire in BTM Layout">Driver Hire in BTM Layout <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-up" data-aos-delay="500">
+            <a class="driver_new" href="#" title="Driver Hire in Electronic City">Driver Hire in Electronic City <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-left" data-aos-delay="600">
+            <a class="driver_new" href="#" title="Driver Hire in Bellandur">Driver Hire in Bellandur <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-right" data-aos-delay="700">
+            <a class="driver_new" href="#" title="Driver Hire in Koramangala">Driver Hire in Koramangala <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-up" data-aos-delay="800">
+            <a class="driver_new" href="#" title="Driver Hire in Yelahanka">Driver Hire in Yelahanka <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-left" data-aos-delay="900">
+            <a class="driver_new" href="#" title="Driver Hire in Indiranagar">Driver Hire in Indiranagar <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub dummy_cls" data-aos="fade-up" data-aos-delay="1000" style="background: none;">
+            <a class="driver_new" href="#" title="Driver Hire in Yeshwantapura"></a>
+          </div>
+          <div class="tab_sub" data-aos="fade-up" data-aos-delay="1000">
+            <a class="driver_new" href="#" title="Driver Hire in Yeshwantapura">Driver Hire in Yeshwantapura <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+          <div class="tab_sub dummy_cls" data-aos="fade-up" data-aos-delay="1000" style="background: none;">
+            <a class="driver_new" href="#" title="Driver Hire in Yeshwantapura"></a>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-   </section>
-   <!-- PROMINENT PLACES IN Bangalore section end -->
+  </section>
+  <!-- PROMINENT PLACES IN Bangalore section end -->
+  <!-- NEED A DRIVER IN Bangalore? section start -->
   <section class="driveapp_sec">
     <div class="container">
       <h2 class="sub_heading mob_title" data-aos="fade-up" data-aos-delay="200">Ezi Drive Mobile App</h2>
       <div class="drive_app row">
-        <div class="driveapp_cont col-lg-7" data-aos="fade-left" data-aos-delay="200">
+        <div class="driveapp_cont col-lg-7" data-aos="fade-right" data-aos-delay="200">
           <h2 class="sub_heading desk_title">NEED A DRIVER IN Bangalore?</h2>
           <p>AYou love your car but driving is a different experience altogether. Driving on a highway can be really exciting but during peak hours, the traffic is too much exhausting. At Ezi Drive, you can call drivers in Bangalore to avoid the stress of negotiating traffic and concentrate on other important tasks you need to take care of. It is easy to hire drivers on call in Bangalore from our online portal or mobile app with just a click of a button.
             You can find a large number of skilful and experienced drivers on call in Bangalore having a thorough knowledge of the city. Hire a driver at Ezi Drive and go on for an enriching day trip with your loved ones without any worry about the traffic problems. We offer customized drivers services to our clients who lay their trust in us. Before hiring the drivers, we carry out a strict background verification process; check all their documents and skills. Call drivers in Bangalore who drive with great responsibility and take care of all your needs. You can completely trust us for quality driver services and we assure you complete satisfaction.</p>
@@ -416,19 +451,21 @@
             <a class="driver_btn" href="">Get Started <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
           </div>
         </div>
-        <div class="driveapp_img col-lg-5" data-aos="fade-right" data-aos-delay="200">
-            <img src="./image/need-a-driver-in-bangalore.png" alt="Mobile App">
-          </div>
+        <div class="driveapp_img col-lg-5" data-aos="fade-left" data-aos-delay="200">
+          <img src="./image/need-a-driver-in-bangalore.png" alt="Mobile App">
+        </div>
       </div>
     </div>
   </section>
+  <!-- NEED A DRIVER IN Bangalore? section end -->
+  <!-- TARIFF section start -->
   <section class="driveapp_sec sec_driveapp">
     <div class="container">
       <h2 class="sub_heading mob_title" data-aos="fade-up" data-aos-delay="200">Ezi Drive Mobile App</h2>
       <div class="drive_app row">
         <div class="driveapp_img col-lg-5" data-aos="fade-right" data-aos-delay="200">
-            <img src="./image/TARIFF.png" alt="Mobile App">
-          </div>
+          <img src="./image/TARIFF.png" alt="Mobile App">
+        </div>
         <div class="driveapp_cont col-lg-7" data-aos="fade-left" data-aos-delay="200">
           <h2 class="sub_heading desk_title">TARIFF</h2>
           <ul class="ul_rs">
@@ -448,15 +485,16 @@
             <li>Accommodation to be provided to drivers if duration is more than 3 days from first day onwards.</li>
             <li>Bengaluru Airport Transfer: Min <span> Rs. 450/- </span>(weekdays).</li>
             <li>Bengaluru Airport Transfer: Min <span> Rs. 500/- </span>(weekends).</li>
-        </ul>
-        
-        
+          </ul>
+
+
         </div>
-       
+
       </div>
     </div>
   </section>
-  <!-- Download App -->
+  <!-- TARIFF section start -->
+  <!-- Download App start -->
   <section class="downlode_scan">
     <div class="container">
       <div class="travel_main row">
@@ -508,7 +546,10 @@
           <!--  -->
         </div>
       </div>
+    </div>
   </section>
+  <!-- Download App end -->
+  <!-- Testiminial section start -->
   <section class="testmonial_sec" data-aos="fade-up" data-aos-delay="200">
     <div class="container">
       <div class="text-center">
@@ -539,6 +580,7 @@
       </div>
     </div>
   </section>
+  <!-- Testiminial section end -->
   <!-- FAQ Section -->
   <section class="faq-section faq-service" data-aos="fade-right" data-aos-delay="200">
     <div class="container">
@@ -660,7 +702,7 @@
       </div>
     </div>
   </section>
-
+  <!-- Press Release end -->
   <!-- blog section start -->
   <section class="blog-section">
     <div class="container">
@@ -707,6 +749,7 @@
     </div>
   </section>
   <!-- blog section end -->
+  <!-- social media section start -->
   <section class="social_icon">
     <div class="container-fluid"><!-- container start -->
       <div class="social_main"><!-- row start -->
@@ -745,6 +788,8 @@
       </div><!-- row end -->
     </div><!-- container end -->
   </section>
+  <!-- social media section start -->
+  <!-- footer section start -->
   <footer class="ezi-footer">
     <div class="footer-mainsec">
       <div class="footer-main row">
@@ -849,69 +894,70 @@
   <div class="footcopy-ryt">
     <p>© EZI DRIVE TOURS & TRAVELS PVT. LTD. ALL RIGHTS RESERVED.</p>
   </div>
+  <!-- footer section end -->
   <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Enquiry Form</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-row">
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Enquiry Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="location">Location</label>
+                <select id="location-1" class="form-control">
+                  <option value="">Select Location</option>
+                  <option value="bengaluru">Bengaluru</option>
+                  <option value="chennai">Chennai</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="request">Request For</label>
+                <select id="request-1" class="form-control">
+                  <option value="">Select Request</option>
+                  <option value="cab">Cab Hire</option>
+                  <option value="driver">Driver Hire</option>
+                </select>
+              </div>
+            </div>
+
             <div class="form-group">
-              <label for="location">Location</label>
-              <select id="location-1" class="form-control">
-                <option value="">Select Location</option>
-                <option value="bengaluru">Bengaluru</option>
-                <option value="chennai">Chennai</option>
+              <label for="duty-type">Duty Type</label>
+              <select id="duty-type-1" class="form-control">
+                <option value="">Select Duty Type</option>
+                <option value="outstation">OutStation</option>
+                <option value="local">Local</option>
+                <option value="monthly">Monthly</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label for="request">Request For</label>
-              <select id="request-1" class="form-control">
-                <option value="">Select Request</option>
-                <option value="cab">Cab Hire</option>
-                <option value="driver">Driver Hire</option>
-              </select>
+              <label for="name">Name</label>
+              <input type="text" id="name-1" class="form-control" placeholder="Enter your name">
             </div>
-          </div>
 
-          <div class="form-group">
-            <label for="duty-type">Duty Type</label>
-            <select id="duty-type-1" class="form-control">
-              <option value="">Select Duty Type</option>
-              <option value="outstation">OutStation</option>
-              <option value="local">Local</option>
-              <option value="monthly">Monthly</option>
-            </select>
-          </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email-1" class="form-control" placeholder="Enter your email">
+            </div>
 
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name-1" class="form-control" placeholder="Enter your name">
-          </div>
-
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email-1" class="form-control" placeholder="Enter your email">
-          </div>
-
-          <div class="form-group">
-            <label for="mobile">Mobile Number</label>
-            <input type="text" id="mobile-1" class="form-control" placeholder="Enter your mobile number">
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="text" id="mobile-1" class="form-control" placeholder="Enter your mobile number">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <!-- footer -->
   <script type="text/javascript" src="./js/jquery.min.js"></script>
