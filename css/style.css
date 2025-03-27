@@ -2006,7 +2006,7 @@ section.driver-hire {
 }
 .answer-faq {
   font-family: 'Helvetica-regular';
-  font-size:20px;
+  font-size:18px;
 }
 .sec_driveapp {
   background: #EFF6FE !important;
@@ -2038,7 +2038,9 @@ section.sec_driveapp::before {
 .ul_rs li {
   list-style: disc;
   font-size: 15px;
+  text-align: left;
 }
+
 .ul_rs span {
   color: #1674EB;
 }
