@@ -793,7 +793,13 @@ section.banner-section {
   line-height: 60px;
   letter-spacing: -1.5px;
 }
-
+.about_banner_sec_conent h1 {
+  font-family: 'Helvetica-bold';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -1.5px;
+}
 .banner_cont p {
   font-family: 'Poppins-Regular';
   font-weight: 400;
@@ -2200,6 +2206,53 @@ section.prominent-place {
 a.driver_new {
   letter-spacing: 0.5px;
 }
+.new_conent {
+  padding: 15px;
+  border: 1px solid #54A88B;
+  background: linear-gradient(90deg, rgba(240, 243, 250, 1) 0%, rgba(242, 244, 225, 1) 100%);
+  margin: 30px 0;
+  border-radius: 30px;
+}
+.new_conent h4 {
+  font-family: 'Helvetica-bold';
+  color: #1674EB;
+}
+.chan-banner-conen_new {
+  text-align: center;
+}
+.chan-banner-conen_new p {
+  width: 100%;
+  line-height: 35px;
+}
+img.mobile_banner {
+  display: none;
+}
+section.about_banner_sec {
+  padding: 0;
+}
+.about_banner_sec_conent {
+  position: absolute;
+  z-index: 1;
+  display: flex
+;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 30%;
+}
+.about_sec_conent {
+  position: relative;
+}
+.about_banner_sec_conent p {
+  text-align: center;
+  font-family: 'Poppins-Regular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  vertical-align: middle;
+  margin: 10px 0 30px;
+}
 /*  */
 /* responsive */
 @media screen and (max-width: 2500px) {}
@@ -2237,6 +2290,9 @@ a.driver_new {
   .sub_heading {
     font-size: 35px;
   }
+  section.banner-section_new {
+    height: 280px;
+}
 }
 
 
@@ -2245,6 +2301,9 @@ a.driver_new {
   .bar_contact .announce_left {
     gap: 10px;
   }
+  section.banner-section_new {
+    height: 260px;
+}
 
   .announce_left p,
   .announce_left p a {
@@ -2430,12 +2489,15 @@ a.driver_new {
   .social_main .media_logo {
     gap: 10px;
   }
-
-
-
 }
 
 @media screen and (max-width: 992px) {
+  img.desktop_banner {
+    display: none;
+}
+img.mobile_banner {
+  display: block;
+}
 
   .ezi_header .main_links,
   section.announce-bar {
