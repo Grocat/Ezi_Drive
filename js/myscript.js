@@ -82,6 +82,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 $(document).ready(function () {
+  // Set the first accordion item to active by default
+  $('.accordion-item:first-child').addClass('active');
+  $('.accordion-item:first-child .accordion-button')
+    .removeClass('collapsed')
+    .attr('aria-expanded', 'true');
+  $('.accordion-item:first-child .accordion-collapse').addClass('show');
+
+  // Toggle active class on click
   $('.accordion-button').on('click', function () {
     $('.accordion-item').removeClass('active');
     if (!$(this).hasClass('collapsed')) {
@@ -89,6 +97,7 @@ $(document).ready(function () {
     }
   });
 });
+
 
 function showTab(tabId) {
     document.querySelectorAll('.tab-content').forEach(tab => {
