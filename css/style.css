@@ -2579,7 +2579,17 @@ section.form_contact_section::after {
   height: 25%;
   left: 0%;
 }
-input::placeholder,
+.banner_row_conent p {
+  font-family: 'Helvetica-regular';
+}
+.banner_row_conent li {
+  font-family: 'Helvetica-regular';
+  list-style: outside;
+}
+.new_class img {
+  transform: translate(125px, -60px);
+}
+.form_div_new input::placeholder,
 textarea::placeholder {
   color: #000 !important;
   opacity: 1; /* ensure full opacity */
@@ -3041,6 +3051,9 @@ section.testmonial_section {
   img.desktop_banner {
     display: none;
   }
+  .banner_row_conent li {
+    text-align: left;
+}
   .form_contaact_main h2 {
     font-size: 35px;
     line-height: 50px;
@@ -3352,6 +3365,7 @@ section.testmonial_section {
   .Privacy_section h1 {
     font-size: 40px;
   }
+
   .Privacy_section p {
     font-size: 18px;
     margin: 20px 0;
