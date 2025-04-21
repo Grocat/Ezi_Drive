@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezi Drive</title>
+  <!-- Required css -->
+
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/animate.css">
+  <link rel="stylesheet" type="text/css" href="./css/aos.css">
+  <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/owl.theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- custom css  -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <header class="ezi_header">
+    <!-- NAV_BAR_SECTION START -->
+    <section class="announce-bar">
+      <div class="bar_contact">
+        <div class="announce_left">
+          <p><span><img src="./image/call_btn.png" alt=""></span>Bengaluru: <span><a href="tel:08042400000">(080) 424-00-000</a></span> / <span><a href="tel:08067000000">67-000-000</a></span></p>
+          <p><span><img src="./image/call_btn.png" alt=""></span>Chennai: <span><a href="tel:8822800800">8822800800</a></span></p>
+        </div>
+        <div class="announce_ryt">
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a class="downlode_app" href="">Download App</a>
+        </div>
+      </div>
+    </section>
+    <nav>
+      <input type="checkbox" id="nav-toggle">
+      <div class="logo">
+        <a href="/">
+          <img src="./image/ezi_logo.png" alt="Reymart-Logo" title="Reymart-Logo">
+        </a>
+      </div>
+      <!-- desktop -->
+      <ul class="main_links">
+        <li><a style="color: #1674EB;" href="#home">Home</a></li>
+        <li><a href="#work">About Us</a></li>
+        <li><a href="#">Driver Hire</a></li>
+        <li><a href="#work">Cab Hire</a></li>
+        <li class="dropdown-parent">
+          <a href="#about"><span>Business Services</span></a>
+          <ul class="dropdown">
+            <li><a href="#service1">Become A Driver</a></li>
+            <li><a href="#service2">B2B Driver Services</a></li>
+          </ul>
+        </li>
+        <li><a href="#work">Contact Us</a></li>
+      </ul>
+      <!-- mobile -->
+      <div class="links">
+        <ul class="links_sidemenu">
+          <li><a href="#home">Home</a></li>
+          <li class="dropdown-parent">
+            <a href="#about"><span>Services Offered</span></a>
+            <ul class="dropdown">
+              <li><a href="#service1">Service 1</a></li>
+              <li><a href="#service2">Service 2</a></li>
+              <li><a href="#service3">Service 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#work">About Us</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#work">Blog</a></li>
+          <li class="header-btn"><a href="#">Get Started</a></li>
+        </ul>
+      </div>
+      <label for="nav-toggle" class="icon-burger" data-aos="fade-left" data-aos-delay="200">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+    <!-- NAV_BAR_SECTION END -->
+  </header>
+  <!-- Main Section start -->
+  <section class="banner-section">
+    <div class="container">
+      <div class="banner_row row_change banner_rowbanner_row_cls">
+        <div class="banner_cont banner_change" data-aos="fade-right" data-aos-delay="200">
+ <div class="chan-banner-conen banner_row_conent">
+	<h1> 
+       Car Driver Jobs</h1>
+	<p>Drive at your own time – when you want to; where you want to</p>
+    <ul>
+        <li>Flexible timing</li>
+        <li>Standard pricing</li>
+        <li>No targets</li>
+        <li>Minimal documentation</li>
+        <li>Earning potential upwards of 20K per month</li>
+    </ul>
+ </div>
+          <div class=" counter-number counter_img new_class">
+            <div class="counter-item counter_img_item">
+              <img src="./image/car-driver-jobs.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="booking-form" data-aos="fade-left" data-aos-delay="200">
+          <h2>Quick Booking</h2>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <select id="location">
+                  <option value=""  style="color: #007BFF; background: #fff;">Location</option>
+                   <option value=""  style="color: #007BFF; background: #fff;">Bengaluru </option>
+                   <option value=""  style="color: #007BFF; background: #fff;">Chennai</option>  
+                </select>
+              </div>
+
+              <div class="form-group">
+                <select id="request">
+                  <option value="" style="color: #007BFF; background: #fff;">Request For</option>
+                  <option value="" style="color: #007BFF; background: #fff;">Cab Hire  </option>
+                  <option value="" style="color: #007BFF; background: #fff;">Driver Hire</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <select id="duty-type">
+                <option value="" style="color: #007BFF; background: #fff;">Duty Type:</option>
+                <option value="" style="color: #007BFF; background: #fff;">OutStation</option>
+                <option value="" style="color: #007BFF; background: #fff;">Local</option>
+                <option value="" style="color: #007BFF; background: #fff;">Monthly</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+
+              <input type="text" id="mobile" placeholder="Mobile Number">
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Mobile app -->
+  <section class="driveapp_sec">
+    <div class="container">
+      <h2 class="sub_heading mob_title" data-aos="fade-up" data-aos-delay="200">Why drive for Ezi Drive</h2>
+      <div class="drive_app row">
+        <div class="driveapp_img col-lg-5" data-aos="fade-right" data-aos-delay="200">
+          <img src="./image/why-drive-for-ezi-drive.png" alt="Mobile App">
+        </div>
+        <div class="driveapp_cont col-lg-7" data-aos="fade-left" data-aos-delay="200">
+          <h2 class="sub_heading desk_title">Why drive for Ezi Drive</h2>
+          <p>Driving with Ezi Drive offers a flexible earning opportunity. Signing up with Ezi Drive (the Pioneer & Leader in Driver Hire services in India) as a Driver means that you can be assured of a decent daily / monthly income. You can sign up with us for a full-time or a part-time driving job and choose your days of work and time accordingly. We have many different kinds of driver jobs (monthly fixed salary, on-demand hourly payments, payments based on number of duties done, valet parking, outstation duties, corporate placements etc.) and can match it to your profile and needs. Drivers who joined Ezi Drive come from all backgrounds and job profile, setting their own schedule to make work fit into their lives, not the other way around. As of today, driving jobs are available for Bengaluru and Chennai cities.</p>
+          <div class="book_btn"><!-- Download btn start -->
+            <a class="down_btn" href="https://play.google.com/store/apps/details?id=in.ezidrive.customer">Download App <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div><!-- Download btn end -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TARIFF section  -->
+  <section class="tariff-section ">
+    <div class="container">
+      <div class="tariff-main  " data-aos="fade-up" data-aos-delay="200">
+        <div class="tariff-sub-1   " data-aos="fade-right" data-aos-delay="200">
+          <h2 class="sub_heading">Become a Driver:</h2>
+          <p>Join EziDrive as a professional driver and earn with flexible hours, steady income, and timely payouts."</p>
+        </div>
+        <div class="tariff-sub-2  " data-aos="fade-left" data-aos-delay="200">
+          <div class="banner_bttn">
+            <a class=" beng_btn" style="
+            background: #fff !important;
+        " href="https://www.ezidrive.in/cab-hire-bangalore">Bengaluru<i class="fa-solid fa-arrow-right-long"></i></a>
+            <a class="cheni-btn beng_btn" style="
+            background: #fff !important;
+        " href="https://www.ezidrive.in/cab-hire-chennai">Chennai <i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TARIFF section -->
+    <!-- FAQ Section -->
+    <section class="faq-section faq-service" data-aos="fade-right" data-aos-delay="200">
+      <div class="container">
+        <h3 class="sub-heading my-4" style="font-family: 'Coiny', sans-serif;">Frequently Asked Questions</h3>
+        <div class="accordion-wrapper" itemscope itemtype="https://schema.org/FAQPage">
+          <div class="accordion faq-accordion" id="accordionExample">
+  
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <span itemprop="name">1. How do I hire a driver?</span>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div itemprop="text" class="answer-faq">You can hire professional drivers on the Ezi Drive platform. Whether you need a driver on an hourly basis to drive you around the city, a driver for an outstation trip or a driver for office pick up & drop, or a monthly driver on permanent basis, Ezi Drive is your go-to platform.</div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- FAQ Item 2 -->
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span itemprop="name">2. Are drivers available on demand?</span>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div itemprop="text" class="answer-faq">On Ezi Drive, you can find drivers on need basis. You can just book a driver for any duration you need on Ezi drive mobile app or through online booking any time and your booking will be confirmed with driver details within short time. Hire a driver on demand or call driver with the help of Ezi Drive platform!</div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- FAQ Item 3 -->
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span itemprop="name">3. When do I hire a driver?</span>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div itemprop="text" class="answer-faq">If you don’t feel like driving your car in and around the city or need a break from the daily traffic, you can always opt for a driver service from Ezi Drive. We also help you with outstation drivers who are aware of the routes to the selected destination. You can also avail driver hire services from Ezi drive for regular office pick-up & drop. In case you need a full time driver on monthly basis, we can provide you with the same.</div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- FAQ Item 4 -->
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <span itemprop="name">4. Are these drivers experienced?</span>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div itemprop="text" class="answer-faq">All drivers on Ezi Drive are professionals with over 3 years of driving experience. They are also subjected to criminal background verification checks and undergo regular workshop training conducted by company.</div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- FAQ Item 5 -->
+            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <span itemprop="name">5. Can I hire a driver on call?</span>
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div itemprop="text" class="answer-faq">Yes, you can. With Ezi Drive, you can hire a driver by making a phone call to our call center number published on our website www.ezidrive.in 24/7 on all days incl. holidays.</div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ section start -->
+  <!-- Download App -->
+  <section class="downlode_scan">
+    <div class="container">
+      <div class="travel_main row">
+        <div class="travel_lft col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <h2 class="sub_heading">Download our app and travel with ease!</h2>
+          <p>Simplify your journey with just a tap! Get our app today for a seamless and reliable travel
+            experience.</p>
+          <div class="counter-number">
+            <div class="counter-item">
+              <!--  -->
+              <div class="counter-innr" data-aos="fade-up" data-aos-delay="200">
+                <div class="element-number"><span class="number" data-target="200">0</span><span class="plus">K+</span></div>
+                <p>Downloads</p>
+              </div>
+              <!--  -->
+              <div class="counter-innr" data-aos="fade-up" data-aos-delay="150">
+                <div class="element-number"><span class="number" data-target="50">0</span><span class="plus">K+</span></div>
+                <p>Active Users</p>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+        <div class="travel_ryt col-lg-6">
+          <div class="app_scanner" data-aos="fade-up" data-aos-delay="200">
+            <h3>For Android</h3>
+            <p>Android 8.0+</p>
+            <a class="down_btn" href="">Download App</a>
+            <div>
+              <img class="scanner" src="./image/app_scan.png" alt="QR Scanner">
+            </div>
+            <div class="andriod_img">
+              <img src="./image/android_img.png" alt="">
+            </div>
+
+          </div>
+          <!--  -->
+          <div class="app_scanner" data-aos="fade-up" data-aos-delay="200">
+            <h3>For iOS</h3>
+            <p>iOS 15.6+</p>
+            <a class="down_btn" href="">Download App</a>
+            <div>
+              <img class="scanner" src="./image/app_scan.png" alt="QR Scanner">
+            </div>
+            <div class="andriod_img">
+              <img src="./image/apple_img.png" alt="">
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+  </section>
+
+  <section class="social_icon">
+    <div class="container-fluid"><!-- container start -->
+      <div class="social_main"><!-- row start -->
+        <div class="media_logo">
+          <img src="./image/instagram.png" alt="Instagram logo">
+          <div class="media-text">
+            <h5>Instagram</h5>
+            <a href="">@ezidrivetravel</a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="media_logo">
+          <img src="./image/twitter.png" alt="Twitter logo">
+          <div class="media-text">
+            <h5>X</h5>
+            <a href="">@ezidrivetravel</a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="media_logo">
+          <img src="./image/linkedin.png" alt="Linkedin logo">
+          <div class="media-text">
+            <h5>LinkedIn</h5>
+            <a href="">@ezidrivetravel</a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="media_logo">
+          <img src="./image/facebook.png" alt="Facebook logo">
+          <div class="media-text">
+            <h5>Facebook</h5>
+            <a href="">@ezidrivetravel</a>
+          </div>
+        </div>
+        <!--  -->
+      </div><!-- row end -->
+    </div><!-- container end -->
+  </section>
+  <footer class="ezi-footer">
+    <div class="footer-mainsec">
+      <div class="footer-main row">
+        <div class="footer-address col-lg-3">
+          <img class="footer-logo" src="./image/ezi_logo.png" alt="">
+          <div class="location">
+            <h5>OUR LOCATIONS</h5>
+            <p><span><i class="fa-solid fa-location-dot"></i></span>Bengaluru: <span><a href="tel:08042400000">(080) 42400000</a></span> / <span><a href="tel:08067000000">67000000</a></span></p>
+            <p><span><i class="fa-solid fa-location-dot"></i></span>Chennai: <span><a href="tel:8822800800">8822800800</a></span> / <span><a href="tel:08067000010">08067000010</a></span></p>
+          </div>
+          <h5>Download APP</h5>
+          <div class="downlode_app">
+            <img src="./image/apple_footer.png" alt="App Store">
+            <img src="./image/playstore.png" alt="Play store">
+          </div>
+
+        </div>
+        <div class="footer-quick col-lg-2">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Site Map</a></li>
+          </ul>
+        </div>
+        <div class="footer-driver col-lg-2">
+          <h5>DRIVER SERVICES</h5>
+          <ul>
+            <li><a href="">Driver Hire</a></li>
+            <li><a href="">Driver Hire Bangalore</a></li>
+            <li><a href="">Driver Hire Chennai</a></li>
+            <li><a href="">Call Drivers</a></li>
+            <li><a href="">Part Time Drivers</a></li>
+            <li><a href="">Office Pick and Drop</a></li>
+            <li><a href="">Valet Parking Drivers</a></li>
+            <li><a href="">Permanent Driver</a></li>
+            <li><a href="">Night Drivers</a></li>
+            <li><a href="">Outstation Drivers</a></li>
+          </ul>
+        </div>
+        <div class="footer-cab col-lg-3">
+          <h5>CAB HIRE SERVICES</h5>
+          <ul>
+            <li><a href="">Cab Hire</a></li>
+            <li><a href="">Cab Hire Bangalore</a></li>
+            <li><a href="">Cab Hire Chennai</a></li>
+            <li><a href="">Call Taxi</a></li>
+            <li><a href="">Car Rental</a></li>
+            <li><a href="">Airport Taxi</a></li>
+            <li><a href="">Outstation Cabs</a></li>
+            <li><a href="">Outstation Cabs Bangalore</a></li>
+            <li><a href="">Outstation Cabs Chennai</a></li>
+            <li><a href="">Online Cab Booking</a></li>
+            <li><a href="">Cab Hire Office Pickup Drop Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-other col-lg-2">
+          <h5>Other links</h5>
+          <ul>
+            <li><a href="">Ezi Rewards</a></li>
+            <li><a href="">Disclaimer</a></li>
+            <li><a href="">Clients</a></li>
+            <li><a href="">Press & Media</a></li>
+            <li><a href="">Agency Login</a></li>
+            <li><a href="">Ezi Holiday</a></li>
+            <li><a href="">Become A Driver</a></li>
+            <li><a href="">B2B Driver Services</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- read  more -->
+      <div class="footer_readmore">
+        <div class="fooor_article row  moretext">
+          <div class="fooor_botom col-lg-3">
+            <div class="foot_subread">
+              <ul>
+                <li><a href="">Ezi Rewards</a></li>
+                <li><a href="">Disclaimer</a></li>
+                <li><a href="">Clients</a></li>
+                <li><a href="">Press & Media</a></li>
+                <li><a href="">Agency Login</a></li>
+                <li><a href="">Ezi Holiday</a></li>
+                <li><a href="">Become A Driver</a></li>
+                <li><a href="">B2B Driver Services</a></li>
+              </ul>
+            </div>
+            <!--  -->
+
+
+          </div>
+        </div>
+        <a class="moreless-button" href="javascript:void(0)">More Links+</a>
+      </div>
+      <!-- read more -->
+    </div>
+  </footer>
+  <div class="footcopy-ryt">
+    <p>© EZI DRIVE TOURS & TRAVELS PVT. LTD. ALL RIGHTS RESERVED.</p>
+  </div>
+  <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Enquiry Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="location">Location</label>
+              <select id="location-1" class="form-control">
+                <option value="">Select Location</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="chennai">Chennai</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="request">Request For</label>
+              <select id="request-1" class="form-control">
+                <option value="">Select Request</option>
+                <option value="cab">Cab Hire</option>
+                <option value="driver">Driver Hire</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="duty-type">Duty Type</label>
+            <select id="duty-type-1" class="form-control">
+              <option value="">Select Duty Type</option>
+              <option value="outstation">OutStation</option>
+              <option value="local">Local</option>
+              <option value="monthly">Monthly</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name-1" class="form-control" placeholder="Enter your name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email-1" class="form-control" placeholder="Enter your email">
+          </div>
+
+          <div class="form-group">
+            <label for="mobile">Mobile Number</label>
+            <input type="text" id="mobile-1" class="form-control" placeholder="Enter your mobile number">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- footer -->
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="./js/aos.js"></script>
+  <script type="text/javascript" src="./js/wow.min.js"></script>
+  <script type="text/javascript" src="./js/myscript.js"></script>
+
+</body>
+
+</html>
