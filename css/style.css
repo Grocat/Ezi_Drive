@@ -2797,6 +2797,7 @@ section.testmonial_section {
 .load-more button:hover {
   background-color: #226fd6;
 }
+
 /* responsive */
 @media screen and (max-width: 2500px) {}
 
@@ -2884,7 +2885,12 @@ section.testmonial_section {
   .ezi_header .main_links a {
     font-size: 15px;
   }
-
+  .banner-section .banner_row {
+    gap: 50px;
+}
+.counter_img_item img {
+  width: 100%;
+}
   .banner-about-cont {
     top: 10%;
   }
@@ -2896,11 +2902,10 @@ section.testmonial_section {
   a.driver_new {
     font-size: 16px;
   }
-
-  .counter_img_item img {
-    width: 70%;
-  }
-
+  .banner_row_conent {
+    position: relative;
+    z-index: 10;
+}
   a.beng_btn {
     padding: 10px 15px;
   }
